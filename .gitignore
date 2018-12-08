@@ -1,0 +1,8 @@
+# ignore MAC OS system files
+
+*.DS_Store
+
+
+# ignore public folder on master branch
+
+public
