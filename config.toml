@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-domain.com/"
+baseurl = "https://eksplain.github.io/d3-notes/"
 languageCode = "en-us"
 title = "Data Driven Documents notes"
 theme = "type"
