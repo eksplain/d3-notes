@@ -1,6 +1,6 @@
 baseurl = "http://replace-this-with-your-domain.com/"
 languageCode = "en-us"
-title = "Type theme"
+title = "Data Driven Documents notes"
 theme = "type"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -23,7 +23,7 @@ paginate = 10
 	# or use Gravatar by adding your email address to generate a unique avatar
 	gravatar = "your@email.com"
 
-	headerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Remove all header text in **config.toml** to disable this feature."
+	headerText = "Learning notes from D3 on hugo"
 	# To add a header background to the main site, save your image under static/img/.
 	# If now image path is provided, a orange background will be shown instead.
 	headerImage = ""
