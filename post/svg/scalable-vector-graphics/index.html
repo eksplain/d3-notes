@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Scalable Vector Graphics - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="olOwOlo" /><meta name="description" content="SVG or Scalable Vector Graphics is an XML based vector image format for 2D graphics. Read the entire specification here if you are feeling brave.
+Traditionally, graphics used the raster graphics or bitmap format, where each pixel in the image is assigned a color. The glaring problem with this format is that they are resolution dependent. They cannot scale up to an arbitrary resolution without loss in quality, a phenomenon popularly known as pixelation." /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.52 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://eksplain.github.io/d3-notes/post/svg/scalable-vector-graphics/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/d3-notes/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/d3-notes/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/d3-notes/favicon-16x16.png">
+<link rel="manifest" href="/d3-notes/manifest.json">
+<link rel="mask-icon" href="/d3-notes/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/d3-notes/dist/even.93844dae.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Scalable Vector Graphics" />
+<meta property="og:description" content="SVG or Scalable Vector Graphics is an XML based vector image format for 2D graphics. Read the entire specification here if you are feeling brave.
+Traditionally, graphics used the raster graphics or bitmap format, where each pixel in the image is assigned a color. The glaring problem with this format is that they are resolution dependent. They cannot scale up to an arbitrary resolution without loss in quality, a phenomenon popularly known as pixelation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://eksplain.github.io/d3-notes/post/svg/scalable-vector-graphics/" /><meta property="article:published_time" content="2018-12-09T12:41:58&#43;01:00"/>
+<meta property="article:modified_time" content="2018-12-09T12:41:58&#43;01:00"/>
+
+<meta itemprop="name" content="Scalable Vector Graphics">
+<meta itemprop="description" content="SVG or Scalable Vector Graphics is an XML based vector image format for 2D graphics. Read the entire specification here if you are feeling brave.
+Traditionally, graphics used the raster graphics or bitmap format, where each pixel in the image is assigned a color. The glaring problem with this format is that they are resolution dependent. They cannot scale up to an arbitrary resolution without loss in quality, a phenomenon popularly known as pixelation.">
+
+
+<meta itemprop="datePublished" content="2018-12-09T12:41:58&#43;01:00" />
+<meta itemprop="dateModified" content="2018-12-09T12:41:58&#43;01:00" />
+<meta itemprop="wordCount" content="441">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Scalable Vector Graphics"/>
+<meta name="twitter:description" content="SVG or Scalable Vector Graphics is an XML based vector image format for 2D graphics. Read the entire specification here if you are feeling brave.
+Traditionally, graphics used the raster graphics or bitmap format, where each pixel in the image is assigned a color. The glaring problem with this format is that they are resolution dependent. They cannot scale up to an arbitrary resolution without loss in quality, a phenomenon popularly known as pixelation."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/d3-notes/" class="logo">Even</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/d3-notes/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/d3-notes/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/d3-notes/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/d3-notes/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/d3-notes/" class="logo">Even</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/d3-notes/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/d3-notes/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/d3-notes/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/d3-notes/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Scalable Vector Graphics</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-12-09 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#line">Line</a></li>
+<li><a href="#rectangle">Rectangle</a></li>
+<li><a href="#circle">Circle</a></li>
+<li><a href="#paths-curves">Paths/Curves</a></li>
+</ul></li>
+<li><a href="#d3-js">D3 js</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      
+
+<p>SVG or Scalable Vector Graphics is an XML based vector image format for 2D graphics. Read the entire specification  <a href="https://www.w3.org/TR/SVG2/">here</a> if you are feeling brave.</p>
+
+<p>Traditionally, graphics used the raster graphics or bitmap format, where each pixel in the image is assigned a color. The glaring problem with this format is that they are resolution dependent. They cannot scale up to an arbitrary resolution without loss in quality, a phenomenon popularly known as pixelation.</p>
+
+<p>Vector graphics on the other hand, are not defined by the pixel, but in terms of 2D points, connected by lines and curves to form polygons and other shapes. The flash player primarily used vector graphics(not SVG) for drawing and animation, making the graphics seem rich and scalable.</p>
+
+<p>SVG is a format that allows three types of graphic objects: vector graphic shapes (e.g., paths consisting of straight lines and curves), images and text.  The graphics are defined in XML syntax and it allows the objects to be grouped, transformed and animated. All the <a href="https://caniuse.com/#search=svg">modern browsers support</a> displaying SVG format.</p>
+
+<p>Let&rsquo;s define some simple shapes in SVG.</p>
+
+<h3 id="line">Line</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">&lt;svg&gt;
+  &lt;line x1=20 y1=20 x2=400 y2=120 style=&#34;stroke:red&#34;/&gt;
+  &lt;line x1=400 y1=20 x2=20 y2=120 style=&#34;stroke:green;stroke-width:8&#34;/&gt;
+&lt;/svg&gt;</pre></td></tr></table>
+</div>
+</div>
+<p>Here&rsquo;s the above line rendered by YOUR browser. Note that it is not an image. Feel free to inspect the element using developer tools.</p>
+
+<p><svg>
+  <line x1=20 y1=20 x2=400 y2=120 style="stroke:red"/>
+  <line x1=400 y1=20 x2=20 y2=120 style="stroke:green;stroke-width:8"/>
+</svg></p>
+
+<p>Notice that the format is xml and every attribute in the <code>&lt;line&gt;</code> element contributes to the drawing. The names of the attributes are defined in the spec and cannot be changed.</p>
+
+<h3 id="rectangle">Rectangle</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;svg&gt;</span>
+  <span class="nt">&lt;rect</span> <span class="na">x=</span><span class="s">20</span> <span class="na">y=</span><span class="s">20</span>
+        <span class="na">width=</span><span class="s">200</span> <span class="na">height=</span><span class="s">100</span>
+        <span class="na">style=</span><span class="s">&#34;fill:lightgreen; stroke:gray&#34;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/svg&gt;</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Here&rsquo;s the above rectangle rendered by your browser. Note that it is not an image. Feel free to inspect the element using developer tools.</p>
+
+<p><svg>
+  <rect x=20 y=20 width=200 height=100 style="fill:lightgreen; stroke:gray">
+</svg></p>
+
+<p>Notice that the format is xml and the dimensions of the rectangle and its position are defined as attributes to the <code>&lt;rect&gt;</code> element.</p>
+
+<p>The co-ordinate system for SVG has its origin at the top left corner with X and Y axes running positive towards right and down respectively.</p>
+
+<h3 id="circle">Circle</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;svg&gt;</span>
+  <span class="nt">&lt;circle</span> <span class="na">cx=</span><span class="s">80</span> <span class="na">cy=</span><span class="s">80</span> <span class="na">r=</span><span class="s">40</span> <span class="na">style=</span><span class="s">&#34;fill:lightblue;stroke:gray&#34;</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/svg&gt;</span></code></pre></td></tr></table>
+</div>
+</div>
+<p><svg>
+  <circle cx=80 cy=80 r=40 style="fill:lightblue;stroke:gray"/>
+</svg></p>
+
+<p>Notice that the attribute names for centre co-ordinates are <code>cx</code> and <code>cy</code>.</p>
+
+<h3 id="paths-curves">Paths/Curves</h3>
+
+<blockquote>
+<p>Unfinished</p>
+</blockquote>
+
+<h2 id="d3-js">D3 js</h2>
+
+<p>D3.js is a Javascript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. We can use D3 to create, change and animate SVG effectively.</p>
+
+<p>D3 is a library aimed at tying data with documents from the DOM. DOM could contain the visual elements from HTML or SVG or any other standard that a browser shall support in it&rsquo;s DOM. Hence, data driven documents.</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">olOwOlo</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-12-09</span>
+  </p>
+  
+  
+</div><footer class="post-footer">
+      
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://eksplain.github.io/d3-notes/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">olOwOlo</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/d3-notes/dist/even.ece58db6.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
