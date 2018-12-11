@@ -1,7 +1,6 @@
 ---
 title: "Scalable Vector Graphics"
 date: 2018-12-09T12:41:58+01:00
-draft: true
 ---
 
 SVG or Scalable Vector Graphics is an XML based vector image format for 2D graphics. Read the entire specification  [here](https://www.w3.org/TR/SVG2/) if you are feeling brave.
